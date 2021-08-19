@@ -9,6 +9,6 @@ github及相关的简单使用
 | title                       | url                                    |
 | --------------------------- | -------------------------------------- |
 | github 简单使用             | [simple-use.md](simple-use.md)         |
-| markdown 中的 emoji :smirk: | [markdown-emojo.md](markdown-emoji.md) |
+| markdown 中的 emoji :smirk: | [markdown-emoji.md](markdown-emoji.md) |
 |                             |                                        |
 
