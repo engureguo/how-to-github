@@ -70,10 +70,19 @@
 本地分支与远程分支不同名，使用 git push origin xxxx 时报错，使用：
 git  push  origin  local-branch-name:remote-branch-name
 
+执行 git add . （没有执行 git commit -m 'x'）后撤销:
+git status 查看add的文件
+git reset . 撤销全部
+
+执行 git commit -m 'x' 后撤销：(参考①)
+git reset --soft HEAD^   --soft 不删除代码，撤销commit，不撤销git add .，HEAD^表示上一个版本
+
 
 ```
 
+参考：
 
+1. [git commit之后，想撤销commit](https://www.cnblogs.com/lfxiao/p/9378763.html)
 
 
 
