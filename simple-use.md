@@ -64,7 +64,20 @@
 4. `git branch -b 创建并切换分支`
 5. `git merge xxxx` 将xxxx分支合并到当前分支
 
-# 参考
+## 使用中遇到的问题
+
+```
+本地分支与远程分支不同名，使用 git push origin xxxx 时报错，使用：
+git  push  origin  local-branch-name:remote-branch-name
+
+
+```
+
+
+
+
+
+## 参考
 
 - git中文参考：https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%85%B3%E4%BA%8E%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6
 - https://blog.csdn.net/weixin_39565021/article/details/111216277
